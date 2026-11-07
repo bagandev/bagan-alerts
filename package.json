@@ -1,0 +1,33 @@
+{
+  "name": "bagan-alerts",
+  "version": "0.1.0",
+  "description": "GitHub-style alerts for BaganDev",
+  "main": "index.js",
+  "scripts": {
+    "build": "susee build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/bagandev/bagan-alerts.git"
+  },
+  "keywords": [],
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/bagandev/bagan-alerts/issues"
+  },
+  "homepage": "https://github.com/bagandev/bagan-alerts#readme",
+  "devDependencies": {
+    "@bagandev/types": "^0.1.0",
+    "susee": "^3.0.0",
+    "typescript": "^7.0.2"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist/**/*",
+    "LICENSE",
+    "package.json",
+    "README.md"
+  ]
+}
