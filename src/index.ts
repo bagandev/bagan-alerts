@@ -113,7 +113,7 @@ function badgeBlock(mkr: Markers, pos: Span, textPos: Span): Block {
  */
 const baganAlerts: BaganPlugin = {
   name: "bagan-alerts",
-  version: "0.1.1",
+  version: "0.1.2",
   type: "markdown",
   description: "GitHub-style alerts for Bagan",
   fun(config, cache) {
@@ -192,3 +192,5 @@ const baganAlerts: BaganPlugin = {
     };
   },
 };
+
+export { baganAlerts };
