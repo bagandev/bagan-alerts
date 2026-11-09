@@ -1,6 +1,6 @@
 {
   "name": "bagan-alerts",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "GitHub-style alerts for BaganDev",
   "type": "module",
   "main": "dist/index.cjs",
@@ -31,7 +31,7 @@
   },
   "homepage": "https://github.com/bagandev/bagan-alerts#readme",
   "devDependencies": {
-    "@bagandev/types": "^0.1.0",
+    "@bagandev/types": "^0.2.0",
     "susee": "^3.0.0",
     "typescript": "^7.0.2"
   },

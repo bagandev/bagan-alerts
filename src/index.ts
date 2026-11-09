@@ -1,3 +1,4 @@
+// cSpell:disable
 import type { BaganPlugin, Block, Span } from "@bagandev/types";
 
 /**
@@ -110,12 +111,12 @@ function badgeBlock(mkr: Markers, pos: Span, textPos: Span): Block {
  * remaining body of the quote is kept untouched after the badge. Kramdown
  * attributes (`{:#id .class key="val"}`) on the quote are preserved.
  */
-export default {
+const baganAlerts: BaganPlugin = {
   name: "bagan-alerts",
-  version: "0.1.0",
+  version: "0.1.1",
   type: "markdown",
-  description: "GitHub-style alerts for Peisar",
-  fun(...args) {
+  description: "GitHub-style alerts for Bagan",
+  fun(config, cache) {
     return {
       /**
        * Block visitor that rewrites alert block quotes.
@@ -190,4 +191,4 @@ export default {
       },
     };
   },
-} as BaganPlugin;
+};
